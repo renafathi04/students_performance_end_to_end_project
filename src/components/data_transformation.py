@@ -30,7 +30,7 @@ class DataTransformation:
                 "race_ethnicity",
                 "parental_level_of_education",
                 "lunch",
-                "test_preparation_course"
+                "test_preparation_course",
             ]
 
             num_pipeline=Pipeline(
@@ -46,7 +46,7 @@ class DataTransformation:
             cat_pipeline=Pipeline(
                 steps=[
                 ("imputer",SimpleImputer(strategy="most_frequent")),
-                ("encoder",OneHotEncoder())
+                ("encoder",OneHotEncoder(handle_unknown='ignore'))
 
                 ]
             )
