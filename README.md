@@ -9,10 +9,10 @@ The Student Performance Prediction system uses machine learning models to predic
 The dataset contains information about students, including:
 
 ### Gender
-**Race/Ethnicity**
-**Parental level of education**
-**Lunch (free/reduced/standard)**
-**Test preparation course (none/completed)**
-**Reading score**
-**Writing score**
+** Race/Ethnicity
+** Parental level of education
+** Lunch (free/reduced/standard)
+** Test preparation course (none/completed)
+** Reading score
+** Writing score
 These features are used to predict the math score of students
