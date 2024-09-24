@@ -9,10 +9,26 @@ The Student Performance Prediction system uses machine learning models to predic
 The dataset contains information about students, including:
 
 ### Gender
-** Race/Ethnicity
-** Parental level of education
-** Lunch (free/reduced/standard)
-** Test preparation course (none/completed)
-** Reading score
-** Writing score
+* Race/Ethnicity
+* Parental level of education
+* Lunch (free/reduced/standard)
+*  Test preparation course (none/completed)
+* Reading score
+* Writing score
 These features are used to predict the math score of students
+
+Project Structure
+* -src/
+ * --pipeline/
+* ---predict_pipeline.py: Handles the prediction process.
+---train_pipeline.py: Handles model training.
+-exception.py: Custom exception handling.
+--logger.py: Logging configuration.
+--utils.py: Helper functions for saving and loading objects.
+--components/
+---data_transformation.py: Handles data preprocessing and transformation.
+-artifacts/: Stores artifacts like the model and preprocessor.
+--templates/: Contains HTML templates for the web app.
+app.py: The Flask web application.
+requirements.txt: Dependencies list.
+README.md: Project documentation.
