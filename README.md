@@ -1,5 +1,5 @@
 ## End to end machine learning project
-Student Performance Prediction
+# Student Performance Prediction
 This project is a machine learning application designed to predict student performance in exams based on various input features such as gender, race/ethnicity, parental level of education, lunch type, test preparation course, and reading/writing scores.
 
 ### Project Overview
